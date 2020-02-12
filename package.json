@@ -1,0 +1,29 @@
+{
+  "name": "clr-prototype",
+  "version": "0.0.1",
+  "description": "UI Web Builder based on Clarity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewRedican/clr-prototype.git"
+  },
+  "keywords": [
+    "web-builder",
+    "react",
+    "angular",
+    "css",
+    "no-code",
+    "prototyping",
+    "ui",
+    "ux"
+  ],
+  "author": "andrew.redican.mejia@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewRedican/clr-prototype/issues"
+  },
+  "homepage": "https://github.com/AndrewRedican/clr-prototype#readme"
+}
