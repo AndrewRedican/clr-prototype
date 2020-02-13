@@ -1,0 +1,50 @@
+steps:
+  # ANGULAR
+
+  # Install
+  - name: "gcr.io/cloud-builders/npm"
+    args: ["install"]
+    dir: "clr-prototype-angular"
+    timeout: 600s
+
+  # Test
+  - name: "gcr.io/cloud-builders/npm"
+    args: ["run", "test"]
+    dir: "clr-prototype-angular"
+    timeout: 600s
+
+  # Build
+  - name: "gcr.io/cloud-builders/npm"
+    args: ["run", "build"]
+    dir: "clr-prototype-angular"
+    timeout: 600s
+
+  # Deploy
+  - name: "gcr.io/$PROJECT_ID/firebase"
+    args: ["deploy"]
+    dir: "clr-prototype-angular"
+    timeout: 600s
+
+  # REACT
+  - name: "gcr.io/cloud-builders/npm"
+    args: ["install"]
+    dir: "clr-prototype-react"
+    timeout: 600s
+
+  # Test
+  - name: "gcr.io/cloud-builders/npm"
+    args: ["run", "test"]
+    dir: "clr-prototype-react"
+    timeout: 600s
+
+  # Build
+  - name: "gcr.io/cloud-builders/npm"
+    args: ["run", "build"]
+    dir: "clr-prototype-react"
+    timeout: 600s
+
+  # Deploy
+  - name: "gcr.io/$PROJECT_ID/firebase"
+    args: ["deploy"]
+    dir: "clr-prototype-react"
+    timeout: 600s
