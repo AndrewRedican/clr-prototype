@@ -17,11 +17,11 @@ steps:
     dir: "clr-prototype-react"
     timeout: 600s
 
-  # Deploy
-  - name: "gcr.io/$PROJECT_ID/firebase"
-    args: ["deploy"]
-    dir: "clr-prototype-react"
-    timeout: 600s
+  # # Deploy
+  # - name: "gcr.io/$PROJECT_ID/firebase"
+  #   args: ["deploy"]
+  #   dir: "clr-prototype-react"
+  #   timeout: 600s
 
   # ANGULAR
 
@@ -42,9 +42,8 @@ steps:
     args: ["run", "build", "--prod"]
     dir: "clr-prototype-angular"
     timeout: 600s
-
-  # Deploy
-  - name: "gcr.io/$PROJECT_ID/firebase"
-    args: ["deploy"]
-    dir: "clr-prototype-angular"
-    timeout: 600s
+  # # Deploy
+  # - name: "gcr.io/$PROJECT_ID/firebase"
+  #   args: ["deploy"]
+  #   dir: "clr-prototype-angular"
+  #   timeout: 600s
