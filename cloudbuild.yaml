@@ -2,19 +2,19 @@ steps:
   # ANGULAR
 
   # Install
-  - name: "gcr.io/cloud-builders/npm"
+  - name: "gcr.io/cloud-builders/npm:node-12.16.0"
     args: ["install"]
     dir: "clr-prototype-angular"
     timeout: 600s
 
   # Test
-  - name: "gcr.io/cloud-builders/npm"
+  - name: "gcr.io/cloud-builders/npm:node-12.16.0"
     args: ["run", "test"]
     dir: "clr-prototype-angular"
     timeout: 600s
 
   # Build
-  - name: "gcr.io/cloud-builders/npm"
+  - name: "gcr.io/cloud-builders/npm:node-12.16.0"
     args: ["run", "build"]
     dir: "clr-prototype-angular"
     timeout: 600s
@@ -26,19 +26,19 @@ steps:
     timeout: 600s
 
   # REACT
-  - name: "gcr.io/cloud-builders/npm"
+  - name: "gcr.io/cloud-builders/npm:node-12.16.0"
     args: ["install"]
     dir: "clr-prototype-react"
     timeout: 600s
 
   # Test
-  - name: "gcr.io/cloud-builders/npm"
+  - name: "gcr.io/cloud-builders/npm:node-12.16.0"
     args: ["run", "test"]
     dir: "clr-prototype-react"
     timeout: 600s
 
   # Build
-  - name: "gcr.io/cloud-builders/npm"
+  - name: "gcr.io/cloud-builders/npm:node-12.16.0"
     args: ["run", "build"]
     dir: "clr-prototype-react"
     timeout: 600s
