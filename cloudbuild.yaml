@@ -33,13 +33,13 @@ steps:
 
   # Test
   - name: "gcr.io/cloud-builders/npm:node-10.10.0"
-    args: ["run", "test", "--prod"]
+    args: ["run", "test:no-watch"]
     dir: "clr-prototype-angular"
     timeout: 600s
 
   # Build
   - name: "gcr.io/cloud-builders/npm:node-10.10.0"
-    args: ["run", "build"]
+    args: ["run", "build", "--prod"]
     dir: "clr-prototype-angular"
     timeout: 600s
 
