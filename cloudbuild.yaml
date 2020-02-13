@@ -1,18 +1,18 @@
 steps:
   # REACT
-  - name: "gcr.io/cloud-builders/npm"
+  - name: "gcr.io/cloud-builders/npm:node-10.10.0"
     args: ["install"]
     dir: "clr-prototype-react"
     timeout: 600s
 
   # Test
-  - name: "gcr.io/cloud-builders/npm"
-    args: ["run", "test"]
+  - name: "gcr.io/cloud-builders/npm:node-10.10.0"
+    args: ["run", "test:no-watch"]
     dir: "clr-prototype-react"
     timeout: 600s
 
   # Build
-  - name: "gcr.io/cloud-builders/npm"
+  - name: "gcr.io/cloud-builders/npm:node-10.10.0"
     args: ["run", "build"]
     dir: "clr-prototype-react"
     timeout: 600s
