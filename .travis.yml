@@ -15,5 +15,11 @@ script:
   - npm run test
   - npm run build
   - cd ../
+deploy:
+  provider: firebase
+  token:
 cache:
   yarn: true
+env:
+  global:
+    secure: 6UmHlUtakBLNmrH6w097wAGtlNQS/oDq4tTAv7NALkjNMVkdEbqKk7QtIQAnPuanZMc16SxXfk7w1THofc488DwnzKf2JQmN6xYThZp3ezasCWG0bL9uqCHnp5B5gOfpLDQIg6r61wPe3EkIf0TxGbEA8gNFa73UiZZXSvjCy6pBtfkzRvxmOwP+P1F3C3RRwX3hsC6iJYcVUOM1htSxzn1DyrMF2iOiB1aLtH2f8xx46ugtAVRhmZs5UCb54FoGP6VHYXrQpe1UsQXqaovSk38l1BKEpLeD7OdUxJ/UALoxGT/3vzEy87wVbo+QJmArWDZovUPJJYwiClmiPl35nBy/Zm1y4v2Zyx+2+KVXCciGpaWgztIj8/PF31s+6cjRhOskKssxUS9fiwOL7DcvMgg5tEMkfvgFPPau6YwfvWb8aGg/C5LYN8jcHqJv9ztBwxT34ls6e/I1IPYw4sNUABf5ZAWD2QbzDeVMOM1uFWEXGiJ1dqKqxlcxFQe3SnaCCbe+WwBzbieu0MSY/H/C3OAnpWX+kxp9d3IJarW18va5HuhbfS5olDwjGqYaFxVQtKIdw+Mzma+5pv+X9GVq1BymrtWoh/o00DuWN7Uxf+dtIWNdhgJg6E49f8/nu1i4q4QyASwPrVdJdd0Sl55VITPDvtHsJmXlrb1nZ/3J7FM=
