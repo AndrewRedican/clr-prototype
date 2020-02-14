@@ -8,6 +8,8 @@ install:
   - yarn lint
   - yarn test
   - yarn build
+before_script: cd clr-prototype-angular
+
 cache:
   yarn: true
 before_script:
