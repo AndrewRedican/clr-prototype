@@ -4,11 +4,10 @@ node_js:
 addons:
   chrome: stable
 install:
-  - ls -ltra
-  - yarn
-  - yarn lint
-  - yarn test
-  - yarn build
+  - cd clr-prototype-angular && yarn
+  - cd clr-prototype-angular && yarn lint
+  - cd clr-prototype-angular && yarn test
+  - cd clr-prototype-angular && yarn build
 
 cache:
   yarn: true
@@ -16,4 +15,3 @@ before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
   - sleep 3
-  - cd clr-prototype-angular
