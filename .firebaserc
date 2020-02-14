@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "clr-prototype"
+  },
+  "targets": {
+    "clr-prototype": {
+      "hosting": {
+        "clr-prototype-angular": [
+          "clr-prototype-angular"
+        ],
+        "clr-prototype-react": [
+          "clr-prototype-react"
+        ]
+      }
+    }
   }
 }
