@@ -10,6 +10,10 @@ script:
   - yarn lint
   - yarn test
   - yarn build
-
+  - cd ../clr-prototype-react
+  - npm
+  - npm run test
+  - npm run build
+  - cd ../
 cache:
   yarn: true
