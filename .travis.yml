@@ -4,10 +4,11 @@ node_js:
 addons:
   chrome: stable
 install:
-  - cd clr-prototype-angular && yarn
-  - cd clr-prototype-angular && yarn lint
-  - cd clr-prototype-angular && yarn test
-  - cd clr-prototype-angular && yarn build
+  - cd clr-prototype-angular
+  - yarn
+  - yarn lint
+  - yarn test
+  - yarn build
 
 cache:
   yarn: true
