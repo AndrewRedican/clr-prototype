@@ -10,7 +10,7 @@
     },
     {
       "target": "clr-prototype-react",
-      "public": "clr-prototype-react/public",
+      "public": "clr-prototype-react/build",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
     }
   ]
