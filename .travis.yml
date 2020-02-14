@@ -3,11 +3,10 @@ node_js:
   - "12"
 addons:
   chrome: stable
-install:
+install: skip
+script:
   - cd clr-prototype-angular
   - yarn
-
-script:
   - yarn lint
   - yarn test
   - yarn build
