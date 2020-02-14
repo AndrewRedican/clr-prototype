@@ -6,6 +6,9 @@ addons:
 install:
   - cd clr-prototype-angular
   - yarn
+
+script:
+  - cd clr-prototype-angular
   - yarn lint
   - yarn test
   - yarn build
