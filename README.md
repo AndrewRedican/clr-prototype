@@ -1,4 +1,4 @@
-# clr-prototype ![Travis (.org)](https://img.shields.io/travis/andrewredican/clr-prototype)
+# clr-prototype ![Travis (.org)](https://img.shields.io/travis/andrewredican/clr-prototype) ![Contributors](https://img.shields.io/github/contributors-anon/andrewredican/clr-prototype)
 
 UI Web Builder based on Clarity, built with: [Angular](https://clr-prototype-angular.firebaseapp.com/) & [React](https://clr-prototype-react.firebaseapp.com/).
 
@@ -40,6 +40,10 @@ _Documentation in progress_
 - [ ] Standardize lint and tests between Angular and React.
 - [ ] Add slack hook.
 
-## Contributers
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Contributors
 
 _Documentation in progress_
