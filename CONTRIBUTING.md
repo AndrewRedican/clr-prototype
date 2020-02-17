@@ -1,3 +1,23 @@
+<style>
+    details {
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        padding: .5em .5em 0;
+    }
+    summary {
+        font-weight: bold;
+        margin: -.5em -.5em 0;
+        padding: .5em;
+    }
+    details[open] {
+        padding: .5em;
+    }
+    details[open] summary {
+        border-bottom: 1px solid #aaa;
+        margin-bottom: .5em;
+    }
+</style>
+
 ### First off, thank you for considering contributing to clr-prototype. It's people like you that make it such a great repository.
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
@@ -10,13 +30,14 @@ Until our slack channel is set up, feel free to use the [issue tracker](https://
 
 <details open>
     <summary><b>Your First Contribution</b></summary>
+    <p>
+        Unsure where to begin contributing to clr-prototype? You can start by looking through these beginner and help-wanted issues:
 
-    Unsure where to begin contributing to clr-prototype? You can start by looking through these beginner and help-wanted issues:
+        - [Beginner issues](https://github.com/AndrewRedican/clr-prototype/labels/beginner) - issues which should only require a few lines of code, and a test or two.
+        - [Help wanted issues](https://github.com/AndrewRedican/clr-prototype/labels/help%20wanted) - issues which should be a bit more involved than beginner issues.
 
-    - [Beginner issues](https://github.com/AndrewRedican/clr-prototype/labels/beginner) - issues which should only require a few lines of code, and a test or two.
-    - [Help wanted issues](https://github.com/AndrewRedican/clr-prototype/labels/help%20wanted) - issues which should be a bit more involved than beginner issues.
-
-    Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
+        Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
+    </p>
 
 </details>
 
