@@ -1,4 +1,4 @@
-# clr-prototype
+# clr-prototype ![Travis (.org)](https://img.shields.io/travis/andrewredican/clr-prototype)
 
 UI Web Builder based on Clarity, built with: [Angular](https://clr-prototype-angular.firebaseapp.com/) & [React](https://clr-prototype-react.firebaseapp.com/).
 
