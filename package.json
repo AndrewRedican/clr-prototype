@@ -1,14 +1,15 @@
 {
   "name": "clr-prototype",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "UI Web Builder based on Clarity",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndrewRedican/clr-prototype.git"
+    "url": "https://github.com/AndrewRedican/clr-prototype.git"
   },
   "keywords": [
     "web-builder",
@@ -25,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/AndrewRedican/clr-prototype/issues"
   },
-  "homepage": "https://github.com/AndrewRedican/clr-prototype#readme"
+  "homepage": "https://github.com/AndrewRedican/clr-prototype#readme",
+  "devDependencies": {
+    "semantic-release": "^17.0.3"
+  }
 }
