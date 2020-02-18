@@ -10,7 +10,7 @@ Until our slack channel is set up, feel free to use the [issue tracker](https://
 
 <details open>
 <summary>
-<h3 style="display:inline-block;margin:2px">Your First Contribution</h3>
+<h3 style="display:inline">Your First Contribution</h3>
 </summary>
 Unsure where to begin contributing to clr-prototype? You can start by looking through these beginner and help-wanted issues:
 
@@ -22,7 +22,7 @@ Both issue lists are sorted by total number of comments. While not perfect, numb
 </details>
 
 <details>
-<summary><h3 style="display:inline-block;margin:2px">Working on your first Pull Request?</h3></summary>
+<summary><h3 style="display:inline">Working on your first Pull Request?</h3></summary>
 
 You can learn how from this _free_ series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
 
@@ -33,7 +33,7 @@ FYI - If a maintainer asks you to "rebase" your PR, they're saying that a lot of
 </details>
 
 <details>
-<summary><h3 style="display:inline-block;margin:2px">Commit Conventions</b></summary>
+<summary><h3 style="display:inline">Commit Conventions</b></summary>
 
 Additionally, we encourage you to read about [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) standard which we follow when making commits.
 
@@ -42,7 +42,7 @@ Additionally, we encourage you to read about [Conventional commits](https://www.
 </details>
 
 <details>
-<summary><h3 style="display:inline-block;margin:2px">How to report a bug / issue</h3></summary>
+<summary><h3 style="display:inline">How to report a bug / issue</h3></summary>
 
 If you find a security vulnerability, do NOT open an issue. Email andrew.redican.mejia@gmail.com instead.
 In order to determine whether you are dealing with a security issue, ask yourself these two questions:
@@ -72,7 +72,7 @@ If the answer to either of those two questions are "yes", then you're probably d
 </details>
 
 <details>
-<summary><h3 style="display:inline-block;margin:2px">Definition of a Change</h3></summary>
+<summary><h3 style="display:inline">Definition of a Change</h3></summary>
 
 As a rule of thumb, changes are obvious fixes if they do not introduce any new functionality or creative thinking. As long as the change does not affect functionality, some likely examples include the following:
 
@@ -87,14 +87,14 @@ As a rule of thumb, changes are obvious fixes if they do not introduce any new f
 </details>
 
 <details>
-<summary><h3 style="display:inline-block;margin:2px">How to suggest a feature or enhancement</h3></summary>
+<summary><h3 style="display:inline">How to suggest a feature or enhancement</h3></summary>
 
 If you find yourself wishing for a feature that doesn't exist in clr-prototype, you are probably not alone. There are bound to be others out there with similar needs. The proper way to do it is to open up a new issue [here](https://github.com/AndrewRedican/clr-prototype/issues). Please make sure to check the list of existing feature requests to avoid duplication.
 
 </details>
 
 <details>
-<summary><h3 style="display:inline-block;margin:2px">Code review process</h3></summary>
+<summary><h3 style="display:inline">Code review process</h3></summary>
 
 This is the checklist that I try to go through for every single pull request that I get. If you're wondering why it takes so long for me to accept pull requests, this is why.
 
