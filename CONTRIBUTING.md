@@ -1,23 +1,3 @@
-<style>
-    details {
-        border: 1px solid #aaa;
-        border-radius: 4px;
-        padding: .5em .5em 0;
-    }
-    summary {
-        font-weight: bold;
-        margin: -.5em -.5em 0;
-        padding: .5em;
-    }
-    details[open] {
-        padding: .5em;
-    }
-    details[open] summary {
-        border-bottom: 1px solid #aaa;
-        margin-bottom: .5em;
-    }
-</style>
-
 ### First off, thank you for considering contributing to clr-prototype. It's people like you that make it such a great repository.
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
@@ -29,143 +9,145 @@ clr-prototype is an open source project and we love to receive contributions fro
 Until our slack channel is set up, feel free to use the [issue tracker](https://github.com/AndrewRedican/clr-prototype/issues) for support questions.
 
 <details open>
-    <summary><b>Your First Contribution</b></summary>
-    <p>
-        Unsure where to begin contributing to clr-prototype? You can start by looking through these beginner and help-wanted issues:
+<summary>
+<h3 style="display:inline-block;margin:2px">Your First Contribution</h3>
+</summary>
+Unsure where to begin contributing to clr-prototype? You can start by looking through these beginner and help-wanted issues:
 
-        - [Beginner issues](https://github.com/AndrewRedican/clr-prototype/labels/beginner) - issues which should only require a few lines of code, and a test or two.
-        - [Help wanted issues](https://github.com/AndrewRedican/clr-prototype/labels/help%20wanted) - issues which should be a bit more involved than beginner issues.
+- [Beginner issues](https://github.com/AndrewRedican/clr-prototype/labels/beginner) - issues which should only require a few lines of code, and a test or two.
+- [Help wanted issues](https://github.com/AndrewRedican/clr-prototype/labels/help%20wanted) - issues which should be a bit more involved than beginner issues.
 
-        Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
-    </p>
-
-</details>
-
-<details open>
-  <summary><b>Working on your first Pull Request?</b></summary>
-  
-    You can learn how from this _free_ series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
-
-    At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first :smile_cat:
-
-    FYI - If a maintainer asks you to "rebase" your PR, they're saying that a lot of code has changed, and that you need to update your branch so it's easier to merge.
+Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
 </details>
 
-<details open>
-    <summary><b>Commit Conventions</b></summary>
+<details>
+<summary><h3 style="display:inline-block;margin:2px">Working on your first Pull Request?</h3></summary>
 
-    Additionally, we encourage you to read about [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) standard which we follow when making commits.
+You can learn how from this _free_ series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
 
-    ![Cheatsheet](docs/images/conventional_commit_cheatsheet.png)
+At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first :smile_cat:
 
-</details>
-
-<details open>
-    <summary><b>How to report a bug / issue</b></summary>
-
-    If you find a security vulnerability, do NOT open an issue. Email andrew.redican.mejia@gmail.com instead.
-    In order to determine whether you are dealing with a security issue, ask yourself these two questions:
-
-    - Can I access something that's not mine, or something I shouldn't have access to?
-    - Can I disable something for other people?
-
-    If you don’t want to use your personal contact information, set up a “security@” email address. Larger projects might have more formal processes for disclosing security, including encrypted communication. (Disclosure: I am not a security expert.)
-    If the answer to either of those two questions are "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just email us at andrew.redican.mejia@gmail.com.
-
-    <b>When filling an issue, make sure to answer these five questions:</b>
-
-    1. What version of node are you using (node version)? \* REQUIRED
-    2. What operating system and processor architecture are you using? \* REQUIRED
-    3. What did you do? \* REQUIRED
-    4. What did you expect to see? \* REQUIRED
-    5. What did you see instead? \* REQUIRED
-
-    <b>Complete Issue Policy: All questions must be answered when submitting an issue.</b>
-    > Please make sure to provide as much detail as possible, including reproduction steps, and/or error logs. This will ensure that we get all the information we can to better solve your inquiry in the shortest amount of time. Any issues that do not meet this criteria will be closed automatically.
-
-    <b>Timely Confirmation Policy: All answered inquiries must be confirmed in a timely manner.</b>
-    > Please make sure to provide confirmation to any answers / solutions provided to an issue or inquiry in a timely manner. We expect a confirmation within 48 hours time. A thumbs up reaction will do. We volunteer our time to review inquiries to the best of our abbility in a timely manner. We expect the same kind of courtesy from those that approach us with inquiries but most importantly this is done to prevent resolved issues to remain open and stack. Any issues we consider to be resolved but lack confirmation will be closed automatically.
+FYI - If a maintainer asks you to "rebase" your PR, they're saying that a lot of code has changed, and that you need to update your branch so it's easier to merge.
 
 </details>
 
-<details open>
-    <summary><b>Definition of a Change</b></summary>
+<details>
+<summary><h3 style="display:inline-block;margin:2px">Commit Conventions</b></summary>
 
-    As a rule of thumb, changes are obvious fixes if they do not introduce any new functionality or creative thinking. As long as the change does not affect functionality, some likely examples include the following:
+Additionally, we encourage you to read about [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) standard which we follow when making commits.
 
-    - Spelling / grammar fixes
-    - Typo correction, white space and formatting changes
-    - Comment clean up
-    - Bug fixes that change default return values or error codes stored in constants
-    - Adding logging messages or debugging output
-    - Changes to ‘metadata’ files like Gemfile, .gitignore, build scripts, etc.
-    - Moving source files from one directory or package to another
+![Cheatsheet](docs/images/conventional_commit_cheatsheet.png)
 
 </details>
 
-<details open>
-    <summary><b>How to suggest a feature or enhancement</b></summary>
+<details>
+<summary><h3 style="display:inline-block;margin:2px">How to report a bug / issue</h3></summary>
 
-    If you find yourself wishing for a feature that doesn't exist in clr-prototype, you are probably not alone. There are bound to be others out there with similar needs. The proper way to do it is to open up a new issue [here](https://github.com/AndrewRedican/clr-prototype/issues). Please make sure to check the list of existing feature requests to avoid duplication.
+If you find a security vulnerability, do NOT open an issue. Email andrew.redican.mejia@gmail.com instead.
+In order to determine whether you are dealing with a security issue, ask yourself these two questions:
+
+- Can I access something that's not mine, or something I shouldn't have access to?
+- Can I disable something for other people?
+
+If you don’t want to use your personal contact information, set up a “security@” email address. Larger projects might have more formal processes for disclosing security, including encrypted communication. (Disclosure: I am not a security expert.)
+If the answer to either of those two questions are "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just email us at andrew.redican.mejia@gmail.com.
+
+<b>When filling an issue, make sure to answer these five questions:</b>
+
+1. What version of node are you using (node version)? \* REQUIRED
+2. What operating system and processor architecture are you using? \* REQUIRED
+3. What did you do? \* REQUIRED
+4. What did you expect to see? \* REQUIRED
+5. What did you see instead? \* REQUIRED
+
+<b>Complete Issue Policy: All questions must be answered when submitting an issue.</b>
+
+> Please make sure to provide as much detail as possible, including reproduction steps, and/or error logs. This will ensure that we get all the information we can to better solve your inquiry in the shortest amount of time. Any issues that do not meet this criteria will be closed automatically.
+
+<b>Timely Confirmation Policy: All answered inquiries must be confirmed in a timely manner.</b>
+
+> Please make sure to provide confirmation to any answers / solutions provided to an issue or inquiry in a timely manner. We expect a confirmation within 48 hours time. A thumbs up reaction will do. We volunteer our time to review inquiries to the best of our abbility in a timely manner. We expect the same kind of courtesy from those that approach us with inquiries but most importantly this is done to prevent resolved issues to remain open and stack. Any issues we consider to be resolved but lack confirmation will be closed automatically.
 
 </details>
 
-<details open>
-    <summary><b>Code review process</b></summary>
+<details>
+<summary><h3 style="display:inline-block;margin:2px">Definition of a Change</h3></summary>
 
-    This is the checklist that I try to go through for every single pull request that I get. If you're wondering why it takes so long for me to accept pull requests, this is why.
+As a rule of thumb, changes are obvious fixes if they do not introduce any new functionality or creative thinking. As long as the change does not affect functionality, some likely examples include the following:
 
-    - [ ] **General**
+- Spelling / grammar fixes
+- Typo correction, white space and formatting changes
+- Comment clean up
+- Bug fixes that change default return values or error codes stored in constants
+- Adding logging messages or debugging output
+- Changes to ‘metadata’ files like Gemfile, .gitignore, build scripts, etc.
+- Moving source files from one directory or package to another
 
-    - [ ] Is this change useful to me, or something that I think will benefit others greatly?
-    - [ ] Check for overlap with other PRs.
-    - [ ] Think carefully about the long-term implications of the change. How will it affect existing projects that are dependent on this? How will it affect my projects? If this is complicated, do I really want to maintain it forever? Is there any way it could be implemented as a separate package, for better modularity and flexibility?
+</details>
 
-    - [ ] **Check the Code**
+<details>
+<summary><h3 style="display:inline-block;margin:2px">How to suggest a feature or enhancement</h3></summary>
 
-    - [ ] If it does too much, ask for it to be broken up into smaller PRs.
-    - [ ] Is it consistent?
-    - [ ] Review the changes carefully, line by line. Make sure you understand every single part of every line. Learn whatever you do not know yet.
-    - [ ] Take the time to get things right. PRs almost always require additional improvements to meet the bar for quality. Be very strict about quality. This usually takes several commits on top of the original PR.
+If you find yourself wishing for a feature that doesn't exist in clr-prototype, you are probably not alone. There are bound to be others out there with similar needs. The proper way to do it is to open up a new issue [here](https://github.com/AndrewRedican/clr-prototype/issues). Please make sure to check the list of existing feature requests to avoid duplication.
 
-    - [ ] **Check the Tests**
+</details>
 
-    - [ ] Does it have tests? If not:
+<details>
+<summary><h3 style="display:inline-block;margin:2px">Code review process</h3></summary>
 
-        - [ ] Comment on the PR "Can you please add tests for this code to `foo_bar.js`", or...
-        - [ ] Write the tests yourself.
+This is the checklist that I try to go through for every single pull request that I get. If you're wondering why it takes so long for me to accept pull requests, this is why.
 
-    - [ ] Do the tests pass for all of the following? If not, write a note in the PR, or fix them yourself. [**Read about testing**](https://github.com/AndrewRedican/clr-prototype/wiki/How-to-Create-and-Run-Tests)
+- [ ] **General**
 
-    - [ ] _Outlines have not been defined yet._
+- [ ] Is this change useful to me, or something that I think will benefit others greatly?
+- [ ] Check for overlap with other PRs.
+- [ ] Think carefully about the long-term implications of the change. How will it affect existing projects that are dependent on this? How will it affect my projects? If this is complicated, do I really want to maintain it forever? Is there any way it could be implemented as a separate package, for better modularity and flexibility?
 
-    - [ ] **Check the Doc**
+- [ ] **Check the Code**
 
-    - [ ] Does it have docs? If not:
+- [ ] If it does too much, ask for it to be broken up into smaller PRs.
+- [ ] Is it consistent?
+- [ ] Review the changes carefully, line by line. Make sure you understand every single part of every line. Learn whatever you do not know yet.
+- [ ] Take the time to get things right. PRs almost always require additional improvements to meet the bar for quality. Be very strict about quality. This usually takes several commits on top of the original PR.
 
-    - [ ] Comment on the PR "Can you please add docs for this feature to `docs/usage.rst`", or...
-    - [ ] Write the docs yourself.
+- [ ] **Check the Tests**
 
-    - [ ] If any new functions/classes are added, do they contain docstrings?
-    - [ ] If any new features are added, are they in `README.rst`?
+- [ ] Does it have tests? If not:
 
-    - [ ] **Credit the Authors**
+  - [ ] Comment on the PR "Can you please add tests for this code to `foo_bar.js`", or...
+  - [ ] Write the tests yourself.
 
-    - [ ] Add name and URL to `AUTHORS.rst`.
-    - [ ] Copy and paste title and PR number into `HISTORY.rst`.
-    - [ ] Thank them for their hard work.
+- [ ] Do the tests pass for all of the following? If not, write a note in the PR, or fix them yourself. [**Read about testing**](https://github.com/AndrewRedican/clr-prototype/wiki/How-to-Create-and-Run-Tests)
 
-    - [ ] **Close Issues**
+- [ ] _Outlines have not been defined yet._
 
-    - [ ] Merge the PR branch. This will close the PR's issue.
-    - [ ] Close any duplicate or related issues that can now be closed. Write thoughtful comments explaining how the issues were resolved.
+- [ ] **Check the Doc**
 
-    - [ ] **Release**
+- [ ] Does it have docs? If not:
 
-    - [ ] Decide whether the changes in master make sense as a major, minor, or patch release.
-    - [ ] Look at the clock. If you're tired, release later when you have time to deal with release problems.
-    - [ ] Then follow all the steps in [post-release guidelines]().
+- [ ] Comment on the PR "Can you please add docs for this feature to `docs/usage.rst`", or...
+- [ ] Write the docs yourself.
+
+- [ ] If any new functions/classes are added, do they contain docstrings?
+- [ ] If any new features are added, are they in `README.rst`?
+
+- [ ] **Credit the Authors**
+
+- [ ] Add name and URL to `AUTHORS.rst`.
+- [ ] Copy and paste title and PR number into `HISTORY.rst`.
+- [ ] Thank them for their hard work.
+
+- [ ] **Close Issues**
+
+- [ ] Merge the PR branch. This will close the PR's issue.
+- [ ] Close any duplicate or related issues that can now be closed. Write thoughtful comments explaining how the issues were resolved.
+
+- [ ] **Release**
+
+- [ ] Decide whether the changes in master make sense as a major, minor, or patch release.
+- [ ] Look at the clock. If you're tired, release later when you have time to deal with release problems.
+- [ ] Then follow all the steps in [post-release guidelines]().
 
 </details>
 
