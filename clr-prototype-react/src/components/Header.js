@@ -1,56 +1,44 @@
 import React, { memo, useState } from "react";
+import { Link } from 'react-router-dom';
+import path from '../appRoutes'
 import logo from "../logo.svg";
 
 const STYLES = {
-  clickable: { cursor: "pointer" }
+  clickable: { cursor: "pointer" },
+  logoContainer: { minWidth: 84 }
 };
 
 const HeaderLink = memo(props => {
   const [active, setActive] = useState("");
   return (
-    <a
+    <Link
       className={`${active} nav-link nav-text`}
       style={STYLES.clickable}
       onMouseEnter={() => setActive("active")}
       onMouseLeave={() => setActive("")}
-      href={props.path}
+      to={props.path}
     >
       {props.label}
-    </a>
-  );
-});
-
-const HeaderButton = memo(props => {
-  const [active, setActive] = useState("");
-  return (
-    <div
-      className={`${active} nav-link nav-text`}
-      style={STYLES.clickable}
-      onMouseEnter={() => setActive("active")}
-      onMouseLeave={() => setActive("")}
-      onClick={props.onClick}
-    >
-      {props.label}
-    </div>
+    </Link>
   );
 });
 
 const Branding = () => (
-  <div className="branding" style={STYLES.clickable}>
-    <span>
+  <Link className="branding" style={STYLES.clickable} to={path.BASE_PATH}>
+    <span style={STYLES.logoContainer}>
       <img src={logo} className="App-logo" alt="logo" />
     </span>
     <span className="title">clr-prototype-react</span>
-  </div>
+  </Link>
 );
 
 const Header = memo(() => (
   <header className="header-6">
     <Branding />
     <div className="header-nav">
-      <HeaderButton label="Getting Started" />
-      <HeaderLink label="Dashboard" path="/dashboard" />
-      <HeaderLink label="New Layout" path="/new-layout" />
+      <HeaderLink label="Getting Started" path={path.BASE_PATH} />
+      <HeaderLink label="Dashboard" path={path.DASHBOARD} />
+      <HeaderLink label="New Layout" path={path.NEW_LAYOUT} />
     </div>
     <div className="header-actions">
       {/* <a className="nav-link nav-icon" aria-label="settings">
